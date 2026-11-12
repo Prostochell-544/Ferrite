@@ -11,7 +11,7 @@ description = "Ferrite: the industrial API for Horizon mods (energy, items, flui
 
 [dependencies]
 # The launcher points this at the Horizon source it builds the game from.
-horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "4302af451a7d72f23c4f62829a165a22a201d937" }
+horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "514ecf9a966cdf2bc4f81f091827d81767756fd9" }
 ferrite-api = { path = "src/crates/ferrite-api" }
 ferrite-items = { path = "src/crates/ferrite-items" }
 ferrite-energy = { path = "src/crates/ferrite-energy" }

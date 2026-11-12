@@ -7,7 +7,7 @@ publish = false
 description = "Ferrite recipes: machine recipes as data, several item and fluid inputs, outputs with chances"
 
 [dependencies]
-horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "4302af451a7d72f23c4f62829a165a22a201d937" }
+horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "514ecf9a966cdf2bc4f81f091827d81767756fd9" }
 ferrite-api = { path = "../ferrite-api" }
 serde = { version = "1.0.229", features = ["derive"] }
 serde_json = "1.0.151"

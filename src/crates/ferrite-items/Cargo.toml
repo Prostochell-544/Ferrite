@@ -7,5 +7,5 @@ publish = false
 description = "Ferrite items: slot roles and per-side IO over the engine's item handlers"
 
 [dependencies]
-horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "4302af451a7d72f23c4f62829a165a22a201d937" }
+horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "514ecf9a966cdf2bc4f81f091827d81767756fd9" }
 ferrite-api = { path = "../ferrite-api" }

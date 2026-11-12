@@ -7,5 +7,5 @@ publish = false
 description = "Ferrite's base: the engine's capability types re-exported, registration tables, side configuration"
 
 [dependencies]
-horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "4302af451a7d72f23c4f62829a165a22a201d937" }
+horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "514ecf9a966cdf2bc4f81f091827d81767756fd9" }
 serde = { version = "1.0.229", features = ["derive"] }

@@ -34,6 +34,6 @@ ferrite::energy::provide_block_energy(r, &press, |host, at| Some(Box::new(PressE
 
 ## Building
 
-Pinned to Horizon `4302af451a7d72f23c4f62829a165a22a201d937` (`horizon-mod.toml`, `[native]`). The launcher supplies
+Pinned to Horizon `514ecf9a966cdf2bc4f81f091827d81767756fd9` (`horizon-mod.toml`, `[native]`). The launcher supplies
 `horizon-mod-api`; generate the registry lock once with `horizon-launcher native-lock .`, then
 `horizon-launcher native-build . --instance <instance> --trust-native-code`.
