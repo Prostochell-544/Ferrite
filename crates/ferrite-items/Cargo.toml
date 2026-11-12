@@ -1,0 +1,11 @@
+[package]
+name = "ferrite-items"
+version = "0.1.0"
+edition = "2024"
+license = "LGPL-3.0-only"
+publish = false
+description = "Ferrite items: slot roles and per-side IO over the engine's item handlers"
+
+[dependencies]
+horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "4302af451a7d72f23c4f62829a165a22a201d937" }
+ferrite-api = { path = "../ferrite-api" }
