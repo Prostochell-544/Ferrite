@@ -1,15 +1,6 @@
-[workspace]
-members = [
-    "crates/ferrite-api",
-    "crates/ferrite-items",
-    "crates/ferrite-energy",
-    "crates/ferrite-fluids",
-    "crates/ferrite-recipes",
-]
-resolver = "3"
-
 # The mod's crate: the launcher links it into the game and gives dependent mods a path to it
-# under the alias `ferrite`.
+# under the alias `ferrite`. The launcher refuses `[workspace]` and accepts sources only under
+# `src/`, so the five crates live in `src/crates/` as path dependencies.
 [package]
 name = "ferrite"
 version = "0.1.0"
@@ -21,8 +12,8 @@ description = "Ferrite: the industrial API for Horizon mods (energy, items, flui
 [dependencies]
 # The launcher points this at the Horizon source it builds the game from.
 horizon-mod-api = { git = "https://github.com/arismoko/horizon", rev = "4302af451a7d72f23c4f62829a165a22a201d937" }
-ferrite-api = { path = "crates/ferrite-api" }
-ferrite-items = { path = "crates/ferrite-items" }
-ferrite-energy = { path = "crates/ferrite-energy" }
-ferrite-fluids = { path = "crates/ferrite-fluids" }
-ferrite-recipes = { path = "crates/ferrite-recipes" }
+ferrite-api = { path = "src/crates/ferrite-api" }
+ferrite-items = { path = "src/crates/ferrite-items" }
+ferrite-energy = { path = "src/crates/ferrite-energy" }
+ferrite-fluids = { path = "src/crates/ferrite-fluids" }
+ferrite-recipes = { path = "src/crates/ferrite-recipes" }
